@@ -1,0 +1,96 @@
+body
+{
+  margin: 0;
+}
+
+header
+{
+  position: fixed;
+  background-color: #2A2929;
+  width: 100%;
+}
+
+#logo
+{
+  margin-left: 15%;
+  float :left;
+}
+
+ /* MENUE EN RUBAN */
+
+.menue
+{
+  margin-right: 15%;
+  margin-top: 1%;
+}
+
+.menue:after, .menue:before
+{
+  margin-top:0.5em;
+  content: "";
+  float:right;
+  border:1.5em solid #fff;
+}
+
+.menue:after
+ {
+  border-left-color:transparent;
+}
+
+.menue:before
+{
+  border-right-color:transparent;
+}
+
+.menue a:link, .menue a:visited
+ {
+  color:#000;
+  text-decoration:none;
+  float:right;
+  height:3.5em;
+  overflow:hidden;
+}
+
+.menue span
+{
+  background:#fff;
+  display:inline-block;
+  line-height:3em;
+  padding:0 1em;
+  margin-top:0.5em;
+  position:relative;
+  transition: background-color 0.2s, margin-top 0.2s;
+  font-family: cursive;
+}
+
+.menue a:hover span
+{
+  background:#52dbc0;
+  margin-top:0;
+}
+
+.menue span:before
+{
+  content: "";
+  position:absolute;
+  top:3em;
+  left:0;
+  border-right:0.5em solid #B4B4B4;
+  border-bottom:0.5em solid #fff;
+}
+
+.menue span:after {
+  content: "";
+  position:absolute;
+  top:3em;
+  right:0;
+  border-left:0.5em solid #B4B4B4;
+  border-bottom:0.5em solid #fff;
+}
+
+/* FIN */
+
+.banniere
+{
+  margin-left: 2.5%;
+}
