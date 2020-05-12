@@ -328,7 +328,7 @@ footer
 
 .legal a
 {
-  color : #ffffff;
+  color : #403E3E;
   text-decoration: none;
   margin-left: 1%;
   margin-top: 15px;
@@ -336,5 +336,35 @@ footer
 
 .legal p
 {
+    color : #403E3E;
     margin-left: 1%;
+}
+
+.piedsPage
+{
+  margin-top: 2%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content : center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.piedsPage a
+{
+  color : #ffffff;
+  text-decoration: none;
+  margin-left: 1%;
+  margin-top: 15px;
+}
+
+.piedsPage a:hover
+{
+    color : #feff31;
+}
+
+.social a:hover
+{
+    color : #feff31;
 }
